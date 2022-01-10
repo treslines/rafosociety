@@ -20,7 +20,7 @@ export default class Header extends Component {
             <meta name="twitter:creator" content="@rafosociety"/>
             <meta property="og:title" content="Rainforest Society"/>
             <meta property="og:description" content="NFT Com Utilidade Real - Estamos Fechando Parcerias Até Abril 2022. Cadastre Seu Produdo Ou Serviço GRATIS!"/>
-            <meta property="og:image" content="https://rainforestsociety.com.br/IF_open-graph.png"/>
+            <meta property="og:image" content="https://rafosociety.vercel.app/images/IF_open-graph.png"/>
             </Head>
          </div>
       )
