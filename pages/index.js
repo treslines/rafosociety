@@ -36,7 +36,7 @@ function Home() {
                
                {/* # CABECALHO COM PNG */}
                <header class="flex flex-col items-center justify-center h-full text-center">
-                  <h1 class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Rainforest Society NFT<br/> <br/></h1>
+                  <h1 class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Rainforest Society<br/> <br/></h1>
                   <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36">
                      <img src="images/banner-rainforest-society-nft.png" alt="NFT Com Utilidade Real"/>
                   </div>
@@ -47,8 +47,8 @@ function Home() {
                   <div class="h-2"></div>
 
                   {/* # DESCRICÃO */}
-                  <h2 class="text-3xl font-bold md:text-5xl leading-solid text-sea-700">Estamos aceitando parcerias até Abril 2022.<br/>Cadastre seu produdo ou serviço GRATIS!</h2>
-                  <p class="tracking-wider text-green-200">Até lá, nos acompanhe por aqui…</p>
+                  <h2 class="text-3xl font-bold md:text-5xl leading-solid text-sea-700">NFT com utilidade Real.<br/>Aceitando parcerias até Abril 2022.</h2>
+                  <p class="tracking-wider text-green-200">Cadastre seu produto ou serviço GRATIS!</p>
                      
                   {/* # CONTAINER BOTÕES    */}
                   <div class="flex items-center justify-center text-base md:text-xl space-x-2">
