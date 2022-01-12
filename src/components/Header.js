@@ -7,7 +7,7 @@ export default class Header extends Component {
          <div>
             <Head>
             <title>{this.props.title}</title>
-            <meta name="description" content="NFT Com Utilidade Real"/>
+            <meta name="description" content="O primeiro NFT que dá descontos"/>
             <meta name="viewport" content="width=device-width"/>
             <meta charset="utf-8"/>
             <link rel="icon" href="favicon/favicon.ico" />
@@ -19,7 +19,7 @@ export default class Header extends Component {
             <meta name="twitter:site" content="@rafosociety"/>
             <meta name="twitter:creator" content="@rafosociety"/>
             <meta property="og:title" content="Rainforest Society"/>
-            <meta property="og:description" content="NFT Com Utilidade Real - Estamos Fechando Parcerias Até Abril 2022. Cadastre Seu Produdo Ou Serviço GRATIS!"/>
+            <meta property="og:description" content="O primeiro NFT que dá descontos! - Cadastre Seu Produdo Ou Serviço GRATIS!"/>
             <meta property="og:image" content="https://rafosociety.vercel.app/images/IF_open-graph.png"/>
             </Head>
          </div>
