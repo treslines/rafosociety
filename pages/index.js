@@ -47,7 +47,7 @@ function Home() {
                   <div class="h-2"></div>
 
                   {/* # DESCRICÃO */}
-                  <h2 class="text-3xl font-bold md:text-5xl leading-solid text-sea-700">NFT com utilidade Real.<br/>Aceitando parcerias até Abril 2022.</h2>
+                  <h2 class="text-3xl font-bold md:text-5xl leading-solid text-sea-700">O primeiro NFT que dá descontos!<br/>Aceitando parcerias até Abril 2022.</h2>
                   <p class="tracking-wider text-green-200">Cadastre seu produto ou serviço GRATIS!</p>
                      
                   {/* # CONTAINER BOTÕES    */}
