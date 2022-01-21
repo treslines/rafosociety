@@ -1,9 +1,6 @@
 
 import Header from '../src/components/Header'
-import Participe from '../src/components/Participe'
-import PromoCarousel from '../src/components/PromoCarousel'
 import Timeline from '../src/components/Timeline'
-//import data from "../src/data";
 
 const data = [
    {
@@ -35,7 +32,7 @@ const data = [
    {
       header: "AULAS DE PORTUGUÊS",
       title: "Receba 10% em cada hora/aula com a professora nativa, licenciada e Pós-Graduada Dilian Ferreira online.",
-      description: "Descontos não comulativos.",
+      description: "Descontos aplicável em cada hora/aula, porém não comulativos.",
       category: {
          tag: "-10%",
          color: "#018f69"
@@ -48,7 +45,7 @@ const data = [
    {
       header: "CONRADO ADVOCACIA",
       title: "A Conrado Advocadia em Goiãnia concede 5% em consultas jurídicas.",
-      description: "Descontos não comulativos.",
+      description: "Descontos se aplicam para cada consulta, porém não comulativos.",
       category: {
          tag: "-5%",
          color: "#018f69"
@@ -61,7 +58,7 @@ const data = [
    {
       header: "BARZINHO SHOW",
       title: "A BarzinhoShow em Goiânia te oferece 10% em qualquer serviço ou pacote fechado com eles.",
-      description: "Descontos não comulativos.",
+      description: "Descontos válidos para cada serviço ou pacote, porém não comulativos.",
       category: {
          tag: "-10%",
          color: "#018f69"
