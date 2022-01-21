@@ -1,5 +1,77 @@
 
 import Header from '../src/components/Header'
+import Participe from '../src/components/Participe'
+import PromoCarousel from '../src/components/PromoCarousel'
+import Timeline from '../src/components/Timeline'
+//import data from "../src/data";
+
+const data = [
+   {
+      header: "ACESSO EXCLUSIVO CLUB DE BENEFÍCIOS",
+      title: "O clube exclusivo da Rainforest Society te concede 20% em toda a moda masculina. (Polos, Sapatênis, Carteiras, Sintos)",
+      description: "Desconto válido para cada item, porém não comulativos",
+      category: {
+         tag: "-20%",
+         color: "#018f69"
+      },
+      link: {
+         url: "https://discord.com/invite/Tr7bHA8jQj",
+         text: "1° NFT que te dá descontos"
+      }
+   },
+   {
+      header: "BRASIL APARTAMENTOS RECIFE",
+      title: "Receba os descontos publicados no Instagram oficial da Brasil Apartamentos Recife de acordo com a disponibilidade dos imõveis que podem chegar a até 40% dependendo da temporada.",
+      description: "Desconto válido para cada imóvel, porém não comulativos",
+      category: {
+         tag: "-40%",
+         color: "#018f69"
+      },
+      link: {
+         url: "https://discord.com/invite/Tr7bHA8jQj",
+         text: "1° NFT que te dá descontos"
+      }
+   },
+   {
+      header: "AULAS DE PORTUGUÊS",
+      title: "Receba 10% em cada hora/aula com a professora nativa, licenciada e Pós-Graduada Dilian Ferreira online.",
+      description: "Descontos não comulativos.",
+      category: {
+         tag: "-10%",
+         color: "#018f69"
+      },
+      link: {
+         url: "https://discord.com/invite/Tr7bHA8jQj",
+         text: "1° NFT que te dá descontos"
+      }
+   },
+   {
+      header: "CONRADO ADVOCACIA",
+      title: "A Conrado Advocadia em Goiãnia concede 5% em consultas jurídicas.",
+      description: "Descontos não comulativos.",
+      category: {
+         tag: "-5%",
+         color: "#018f69"
+      },
+      link: {
+         url: "https://discord.com/invite/Tr7bHA8jQj",
+         text: "1° NFT que te dá descontos"
+      }
+   },
+   {
+      header: "BARZINHO SHOW",
+      title: "A BarzinhoShow em Goiânia te oferece 10% em qualquer serviço ou pacote fechado com eles.",
+      description: "Descontos não comulativos.",
+      category: {
+         tag: "-10%",
+         color: "#018f69"
+      },
+      link: {
+         url: "https://discord.com/invite/Tr7bHA8jQj",
+         text: "1° NFT que te dá descontos"
+      }
+   }
+]
 
 function Home() {
    return (
@@ -11,7 +83,7 @@ function Home() {
             <nav class="flex items-center flex-none">
                
                <div class="flex-none">
-                  <a href="/"><img src="images/logo.png" alt="Rainforest Society NFT" class="w-8 text-white md:w-12"/></a> 
+                  <a href="/"><img src="images/logo.webp" alt="Rainforest Society NFT" class="w-8 text-white md:w-12"/></a> 
                </div>
 
                <div class="flex-auto"></div>
@@ -38,7 +110,7 @@ function Home() {
                <header class="flex flex-col items-center justify-center h-full text-center">
                   <h1 class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Rainforest Society<br/> <br/></h1>
                   <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36">
-                     <img src="images/banner-rainforest-society-nft.png" alt="NFT Com Utilidade Real"/>
+                     <img src="images/banner-rainforest-society-nft.webp" alt="NFT Com Utilidade Real"/>
                   </div>
                </header>
 
@@ -85,7 +157,11 @@ function Home() {
 
                   </div>
 
-                  <div class="h-6"></div>
+
+
+                     <h1 class="text-sea-700">Parcerias</h1>
+                     <Timeline timelineData={data}/>
+            
 
                </div>
             </div>
