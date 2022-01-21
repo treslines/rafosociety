@@ -21,7 +21,7 @@ const data = [
    },
    {
       header: "BRASIL APARTAMENTOS RECIFE",
-      title: "Receba os descontos publicados no Instagram oficial da Brasil Apartamentos Recife de acordo com a disponibilidade dos imõveis que podem chegar a até 40% dependendo da temporada.",
+      title: "Receba os descontos publicados no Instagram oficial da Brasil Apartamentos Recife de acordo com a disponibilidade dos imóveis que podem chegar a até 40% dependendo da temporada.",
       description: "Desconto válido para cada imóvel, porém não comulativos",
       category: {
          tag: "-40%",
