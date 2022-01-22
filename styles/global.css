@@ -63,7 +63,7 @@
   position: relative;
   flex-direction: column;
   align-self: flex-end;
-  padding: 6px;
+  padding: 12px;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
