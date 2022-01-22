@@ -4,9 +4,9 @@ import Timeline from '../src/components/Timeline'
 
 const data = [
    {
-      header: "ACESSO EXCLUSIVO CLUB DE BENEFÍCIOS",
+      header: "🇧🇷 ACESSO EXCLUSIVO CLUB DE BENEFÍCIOS",
       title: "O clube exclusivo da Rainforest Society te concede 20% em toda a moda masculina. (Polos, Sapatênis, Carteiras, Sintos)",
-      description: "Desconto válido para cada item, porém não comulativos",
+      description: "Desconto válido para cada item, porém não comulativos. Envio para todo 🇧🇷 em 7-15dias",
       category: {
          tag: "-20%",
          color: "#018f69"
@@ -17,9 +17,9 @@ const data = [
       }
    },
    {
-      header: "BRASIL APARTAMENTOS RECIFE",
+      header: "BRASIL FLATS RECIFE 🇧🇷",
       title: "Receba os descontos publicados no Instagram oficial da Brasil Apartamentos Recife de acordo com a disponibilidade dos imóveis que podem chegar a até 40% dependendo da temporada.",
-      description: "Desconto válido para cada imóvel, porém não comulativos",
+      description: "Desconto válido para cada imóvel, porém não comulativos.",
       category: {
          tag: "-40%",
          color: "#018f69"
@@ -30,7 +30,7 @@ const data = [
       }
    },
    {
-      header: "AULAS DE PORTUGUÊS",
+      header: "AULAS DE PORTUGUÊS 🇧🇷 🇵🇹",
       title: "Receba 10% em cada hora/aula com a professora nativa, licenciada e Pós-Graduada Dilian Ferreira online.",
       description: "Descontos aplicável em cada hora/aula, porém não comulativos.",
       category: {
@@ -43,7 +43,7 @@ const data = [
       }
    },
    {
-      header: "CONRADO ADVOCACIA",
+      header: "🇧🇷 CONRADO ADVOCACIA ",
       title: "A Conrado Advocadia em Goiãnia concede 5% em consultas jurídicas.",
       description: "Descontos se aplicam para cada consulta, porém não comulativos.",
       category: {
@@ -56,7 +56,7 @@ const data = [
       }
    },
    {
-      header: "BARZINHO SHOW",
+      header: "BARZINHO SHOW 🇧🇷",
       title: "A BarzinhoShow em Goiânia te oferece 10% em qualquer serviço ou pacote fechado com eles.",
       description: "Descontos válidos para cada serviço ou pacote, porém não comulativos.",
       category: {

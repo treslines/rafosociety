@@ -63,9 +63,8 @@
   position: relative;
   flex-direction: column;
   align-self: flex-end;
-  padding: 15px;
+  padding: 6px;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
-  width: 400px;
 }
 
 .timeline-item-content::after{
