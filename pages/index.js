@@ -13,7 +13,7 @@ const data = [
       },
       link: {
          url: "https://www.instagram.com/rafosociety/",
-         text: "Esperando o que? Ofereça o seu"
+         text: "Esperando o que? Ofereça seu produto"
       }
    },
    {
@@ -26,7 +26,7 @@ const data = [
       },
       link: {
          url: "https://www.instagram.com/rafosociety/",
-         text: "Não fique de fora, ofereça seu seviço"
+         text: "Não fique de fora, ofereça seu serviço"
       }
    },
    {
@@ -71,7 +71,7 @@ const data = [
    {
       header: "VENDA MUITO MAIS!",
       title: "Fidelize seus clientes de maneira orgânica e GRATUITA!",
-      description: "Ofereça seus serviços ou produtos!",
+      description: "Ofereça seus produtos ou serviços!",
       category: {
          tag: "🚀",
          color: "#Fff"
