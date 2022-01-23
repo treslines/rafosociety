@@ -44,7 +44,7 @@ const data = [
    },
    {
       header: "🇧🇷 CONRADO ADVOCACIA ",
-      title: "A Conrado Advocadia em Goiânia concede 5% em consultas jurídicas.",
+      title: "A Conrado Advocadia Goiânia concede 5% desconto em consultas jurídicas.",
       description: "Descontos se aplicam para cada consulta, porém não comulativos.",
       category: {
          tag: "-5%",
@@ -58,7 +58,7 @@ const data = [
    {
       header: "BARZINHO SHOW 🇧🇷",
       title: "A BarzinhoShow em Goiânia te oferece 10% em qualquer serviço ou pacote.",
-      description: "Descontos válidos para cada serviço ou pacote, porém não comulativos.",
+      description: "Descontos válidos para cada serviço ou pacote, não comulativos.",
       category: {
          tag: "-10%",
          color: "#018f69"
