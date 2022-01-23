@@ -86,41 +86,41 @@ const data = [
 function Home() {
    return (
       <div>
-         <Header title="Rainforest Society"/>
+         <Header title="Rainforest Society" />
          <div class="flex flex-col min-h-screen p-5 lg:p-7">
-            
+
             {/* # NAVEGACAO */}
             <nav class="flex items-center flex-none">
-               
+
                <div class="flex-none">
-                  <a href="/"><img src="images/logo.webp" alt="Rainforest Society NFT" class="w-8 text-white md:w-12"/></a> 
+                  <a href="/"><img src="images/logo.webp" alt="Rainforest Society NFT" class="w-8 text-white md:w-12" /></a>
                </div>
 
                <div class="flex-auto"></div>
 
                <div class="flex items-center flex-none space-x-4">
                   <a class="" href="https://twitter.com/rafosociety">
-                     <img src="svg/twitter.svg" alt="Twitter" class="w-8 text-white"/> 
+                     <img src="svg/twitter.svg" alt="Twitter" class="w-8 text-white" />
                   </a>
-                  
+
                   <a class="" href="https://www.instagram.com/rafosociety/">
-                     <img src="svg/instagram.svg" alt="Instagram" class="w-8 text-white"/> 
+                     <img src="svg/instagram.svg" alt="Instagram" class="w-8 text-white" />
                   </a>
-                  
+
                   <a class="" href="https://discord.gg/Tr7bHA8jQj">
-                     <img src="svg/discord.svg" alt="Discord" class="w-8 text-white"/> 
+                     <img src="svg/discord.svg" alt="Discord" class="w-8 text-white" />
                   </a>
                </div>
             </nav>
 
             {/* # CONTAINER DE FORA DA DESCRICÃO */}
             <div class="flex flex-col items-center justify-center flex-1">
-               
+
                {/* # CABECALHO COM PNG */}
                <header class="flex flex-col items-center justify-center h-full text-center">
-                  <h1 class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Rainforest Society NFT<br/> <br/></h1>
+                  <h1 class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Rainforest Society NFT<br /> <br /></h1>
                   <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36">
-                     <img src="images/banner-rainforest-society-nft.webp" alt="NFT Com Utilidade Real"/>
+                     <img src="images/banner-rainforest-society-nft.webp" alt="NFT Com Utilidade Real" />
                   </div>
                </header>
 
@@ -129,12 +129,12 @@ function Home() {
                   <div class="h-2"></div>
 
                   {/* # DESCRICÃO */}
-                  <h2 class="text-3xl font-bold md:text-5xl leading-solid text-sea-700">O primeiro NFT que dá descontos!<br/>Formando parcerias até Abril 2022.</h2>
+                  <h2 class="text-3xl font-bold md:text-5xl leading-solid text-sea-700">O primeiro NFT que dá descontos!<br />Formando parcerias até Abril 2022.</h2>
                   <p class="tracking-wider text-green-200">Ofereça seu produto ou serviço GRATIS pelo Twitter ou Discord!</p>
-                     
+
                   {/* # CONTAINER BOTÕES    */}
                   <div class="flex items-center justify-center text-base md:text-xl space-x-2">
-                     
+
                      {/* # TWITTER BUTTON */}
                      <a href="https://twitter.com/rafosociety" class="bg-white btn text-green-200">
                         <svg
@@ -147,7 +147,7 @@ function Home() {
                         </svg>
                         <span>Twitter</span>
                      </a>
-                     
+
                      {/* # DISCORD BUTTON */}
                      <a href="https://discord.gg/Tr7bHA8jQj" class="bg-white btn text-green-200">
                         <svg viewBox="0 0 71 55" class="h-4"
@@ -167,15 +167,70 @@ function Home() {
 
                   </div>
 
+                  <div class="flex flex-col items-center justify-center flex-1 bullet">
+                     <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
+                        <img src="images/proposito3.webp" alt="NFT Com Utilidade Real" />
+                        <p style={{fontWeight:"bold"}}>Qual é o valor que queremos agregar a sociedade com o projeto: Rainforest Society NFT?</p>
+                        <ol class="bullet-list">
+                           <li>➡️ Ser social e devolver algo para a sociedade, doando para instituições de caridade nas vendas através do club exclusivo de benefícios.</li>
+                           <li>➡️ Gerar um valor real aos donos dos NFT's concedendo descontos em estabelecimentos, lojas, prestadores de serviços com o nosso programa de  parcerias.
+                           </li>
+                        </ol>
+                     </div>
+                     <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
+                        <img src="images/missao.webp" alt="NFT Com Utilidade Real" />
+                        <p style={{fontWeight:"bold"}}>Qual é a missão por trás do projeto: Rainforest Society NFT?</p>
+                        <ol class="bullet-list">
+                           <li>➡️ Continuar com a formação de parcerias legais para ir aumentando o valor real para os donos dos NFT's e poder ajudar instituições de caridade através das doações. O projeto apoia essas causas:</li>
+                           <li>🎗️ Combate ao câncer</li>
+                           <li>🍽️ Combate à fome</li>
+                           <li>🐕 Ajuda aos animais de rua</li>
+                           <li>🎓 Acesso a Educação</li>
+                        </ol>
+                     </div>
+                     <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
+                        <img src="images/conceito.webp" alt="NFT Com Utilidade Real" />
+                        <p style={{fontWeight:"bold"}}>Qual foi o conceito ideializado?</p>
+                        <ol class="bullet-list" >
+                           <li>➡️ Instituições de Caridade: Doar uma porcentagem para fins sociais.</li>
+                           <li>➡️ Descontos Vitalícios: Enquanto a parceria existir, os donos dos NFT's podem solicitar o desconto acordado. Oferecer real utilidade e vantagens.</li>
+                           <li>➡️ Público Português: NFT voltado para amantes da língua e cultura portuguesa/brasileira.</li>
+                           <li>➡️ Arte Plajenada: Conceitualmente desenvolvido para ser usado em redes sociais, onde os personagens foram criados dentro de uma zona segura de exibição, garantindo 80-90% de visibilidade do personagem.</li>
+                           <li>➡️ Valorização da Fauna Brasileira: Arte ilustrada por um profissional, bonita de se ver, valorizando a fauna e as regiões brasileiras em alta resolução.</li>
+                        </ol>
+                     </div>
+                     <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
+                        <img src="images/roadmap.webp" alt="NFT Com Utilidade Real" />
+                        <p style={{fontWeight:"bold"}}>Qual é o planejamento do projeto?</p>
+                        <ol class="bullet-list" >
+                           <li>➡️ Por ser um projeto bem dinâmico, estamos planejando por etapas, já que um atraso ou adiantamento de uma etapa prévia, alteraria todo o cronograma futuro causando retrabalho. No entanto, a versão macro do nosso Roadmap esta disponível no canal de <b>"📑planejamento"</b> do Discord.</li>
+                        </ol>
+                     </div>
+
+                     
+                     <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
+                        <img src="images/engajamento.webp" alt="NFT Com Utilidade Real" />
+                        <p style={{fontWeight:"bold"}}>Como você pode se engajar na nossa comunidade?</p>
+                        <ol class="bullet-list">
+                           <li>➡️ Fazendo sugestões proativas no canal de <b>"sugestões"</b> do Discord</li>
+                           <li>➡️ Indicando empresas, estabelecimentos, lojas, prestadores de serviços e/ou incentivando os mesmos a cadastrarem seus serviços/produtos aqui, pois é totalmente GRATUITO para eles e só nos agrega valor. Seu NFT ganha em valor com cada nova parceria fechada e as doações aumentam.</li>
+                           <li>➡️ Nos informando no canal de <b>"reportar-spam"</b> sobre possíveis parceiros que não cumprem com o benefício acordado para que possam ser banidos e removidos do nosso programa de parceria listado no site Rainforest Society NFT.</li>
+                           <li>➡️ Usando o material disponível no canal de <b>"divulgue"</b> para promover nossos NFT's em suas redes sociais. Assim você contribui para que seu NFT ganhe cada vez mais em valor e agregue mais utilidades para você e para toda a comunidade.</li>
+                           <li>➡️ Ensinando e/ou mostrando como convidar pessoas para o discord usando a imagem disponível no canal de <b>"📫como-convidar"</b>.</li>
+                           <li>➡️ Compartilhe apenas nossos links oficiais disponíveis no canal de <b>"links-oficiais"</b>.</li>
+                           <li>➡️ Reporte Scammers ou pessoas que estejam infrigindo com as regras definidas no canal de <b>"regras"</b> através do canal de <b>"reportar-spam"</b> para que nosso server cresça organicamente, se mantenha saudável e respeitoso.</li>
+                           <li>➡️ Tire sua dúvidas no canal de <b>"FAQ"</b> ou sugira inserção de algum tópico novo através do canal de <b>"sugestões"</b>.</li>
+                        </ol>
+                     </div>
+                     
+                  </div>
 
 
-                     <h1 class="text-sea-700">Parcerias</h1>
-                     <Timeline timelineData={data}/>
-            
+                  <h1 class="text-sea-700">Parcerias</h1>
+                  <Timeline timelineData={data} />
 
                </div>
             </div>
-
          </div>
       </div>
    )
