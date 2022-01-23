@@ -4,68 +4,81 @@ import Timeline from '../src/components/Timeline'
 
 const data = [
    {
-      header: "🇧🇷 ACESSO EXCLUSIVO CLUB DE BENEFÍCIOS",
-      title: "O clube exclusivo da Rainforest Society te concede 20% em toda a moda masculina. (Polos, Sapatênis, Carteiras, Sintos)",
-      description: "Desconto válido para cada item, porém não comulativos. Envio para todo 🇧🇷 em 7-15dias",
+      header: "🇧🇷 Moda Masculina",
+      title: "O clube exclusivo da Rainforest Society NFT te concede 20% em polos, sapatênis, carteiras e sintos.",
+      description: "Desconto válido/item, porém não comulativos. Envio para todo 🇧🇷 em 7-15dias",
       category: {
          tag: "-20%",
          color: "#018f69"
       },
       link: {
-         url: "https://discord.com/invite/Tr7bHA8jQj",
-         text: "1° NFT que te dá descontos"
+         url: "https://www.instagram.com/rafosociety/",
+         text: "Esperando o que? Ofereça o seu"
       }
    },
    {
       header: "BRASIL FLATS RECIFE 🇧🇷",
-      title: "Receba os descontos publicados no Instagram oficial da Brasil Apartamentos Recife de acordo com a disponibilidade dos imóveis que podem chegar a até 40% dependendo da temporada.",
-      description: "Desconto válido para cada imóvel, porém não comulativos.",
+      title: "Receba os descontos publicados no Instagram oficial da Brasil Apartamentos Recife que podem chegar a até 40%.",
+      description: "Desconto válido/imóvel, porém não comulativos.",
       category: {
          tag: "-40%",
          color: "#018f69"
       },
       link: {
-         url: "https://discord.com/invite/Tr7bHA8jQj",
-         text: "1° NFT que te dá descontos"
+         url: "https://www.instagram.com/rafosociety/",
+         text: "Não fique de fora, ofereça seu seviço"
       }
    },
    {
       header: "AULAS DE PORTUGUÊS 🇧🇷 🇵🇹",
-      title: "Receba 10% em cada hora/aula com a professora nativa, licenciada e Pós-Graduada Dilian Ferreira online.",
-      description: "Descontos aplicável em cada hora/aula, porém não comulativos.",
+      title: "Receba 10% em cada hora/aula com a professora nativa, licenciada e Pós-Graduada online.",
+      description: "Desconto aplicável hora/aula, porém não comulativos.",
       category: {
          tag: "-10%",
          color: "#018f69"
       },
       link: {
-         url: "https://discord.com/invite/Tr7bHA8jQj",
-         text: "1° NFT que te dá descontos"
+         url: "https://www.instagram.com/rafosociety/",
+         text: "Esperando o que? Ofereça seus serviços"
       }
    },
    {
       header: "🇧🇷 CONRADO ADVOCACIA ",
-      title: "A Conrado Advocadia em Goiãnia concede 5% em consultas jurídicas.",
+      title: "A Conrado Advocadia Goiânia concede 5% desconto em consultas jurídicas.",
       description: "Descontos se aplicam para cada consulta, porém não comulativos.",
       category: {
          tag: "-5%",
          color: "#018f69"
       },
       link: {
-         url: "https://discord.com/invite/Tr7bHA8jQj",
-         text: "1° NFT que te dá descontos"
+         url: "https://www.instagram.com/rafosociety/",
+         text: "Conceda descontos também "
       }
    },
    {
       header: "BARZINHO SHOW 🇧🇷",
-      title: "A BarzinhoShow em Goiânia te oferece 10% em qualquer serviço ou pacote fechado com eles.",
-      description: "Descontos válidos para cada serviço ou pacote, porém não comulativos.",
+      title: "A BarzinhoShow em Goiânia te oferece 10% em qualquer serviço ou pacote.",
+      description: "Descontos válidos para cada serviço ou pacote, não comulativos.",
       category: {
          tag: "-10%",
          color: "#018f69"
       },
       link: {
-         url: "https://discord.com/invite/Tr7bHA8jQj",
-         text: "1° NFT que te dá descontos"
+         url: "https://www.instagram.com/rafosociety/",
+         text: "Venda mais também"
+      }
+   },
+   {
+      header: "VENDA MUITO MAIS!",
+      title: "Fidelize seus clientes de maneira orgânica e GRATUITA!",
+      description: "Ofereça seus serviços ou produtos!",
+      category: {
+         tag: "🚀",
+         color: "#Fff"
+      },
+      link: {
+         url: "https://www.instagram.com/rafosociety/",
+         text: "OFERECER"
       }
    }
 ]
@@ -105,7 +118,7 @@ function Home() {
                
                {/* # CABECALHO COM PNG */}
                <header class="flex flex-col items-center justify-center h-full text-center">
-                  <h1 class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Rainforest Society<br/> <br/></h1>
+                  <h1 class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Rainforest Society NFT<br/> <br/></h1>
                   <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36">
                      <img src="images/banner-rainforest-society-nft.webp" alt="NFT Com Utilidade Real"/>
                   </div>
@@ -116,8 +129,8 @@ function Home() {
                   <div class="h-2"></div>
 
                   {/* # DESCRICÃO */}
-                  <h2 class="text-3xl font-bold md:text-5xl leading-solid text-sea-700">O primeiro NFT que dá descontos!<br/>Aceitando parcerias até Abril 2022.</h2>
-                  <p class="tracking-wider text-green-200">Cadastre seu produto ou serviço GRATIS!</p>
+                  <h2 class="text-3xl font-bold md:text-5xl leading-solid text-sea-700">O primeiro NFT que dá descontos!<br/>Formando parcerias até Abril 2022.</h2>
+                  <p class="tracking-wider text-green-200">Ofereça seu produto ou serviço GRATIS pelo Twitter ou Discord!</p>
                      
                   {/* # CONTAINER BOTÕES    */}
                   <div class="flex items-center justify-center text-base md:text-xl space-x-2">
