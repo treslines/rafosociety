@@ -130,7 +130,7 @@ function Home() {
 
                   {/* # DESCRICÃO */}
                   <h2 class="text-3xl font-bold md:text-5xl leading-solid text-sea-700">O primeiro NFT que dá descontos!<br />Formando parcerias até Abril 2022.</h2>
-                  <p class="tracking-wider text-green-200">Ofereça seu produto ou serviço GRATIS pelo Twitter ou Discord!</p>
+                  <p class="tracking-wider text-green-200">Ofereça seu produto ou serviço GRATIS! Acesse o Twitter ou Discord!</p>
 
                   {/* # CONTAINER BOTÕES    */}
                   <div class="flex items-center justify-center text-base md:text-xl space-x-2">
@@ -169,57 +169,74 @@ function Home() {
 
                   <div class="flex flex-col items-center justify-center flex-1 bullet">
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
-                        <img src="images/proposito3.webp" alt="NFT Com Utilidade Real" />
-                        <p style={{fontWeight:"bold"}}>Qual é o valor que queremos agregar a sociedade com o projeto: Rainforest Society NFT?</p>
+                        <img style={{margin:"70px 0px 0px 0px"}} src="images/proposito3.webp" alt="NFT Com Utilidade Real" />
+                        <p style={{fontWeight:"bold"}}>Qual é o valor que queremos agregar a sociedade com o projeto <i>"Rainforest Society NFT"</i>?</p>
                         <ol class="bullet-list">
-                           <li>➡️ Ser social e devolver algo para a sociedade, doando para instituições de caridade nas vendas através do club exclusivo de benefícios.</li>
-                           <li>➡️ Gerar um valor real aos donos dos NFT's concedendo descontos em estabelecimentos, lojas, prestadores de serviços com o nosso programa de  parcerias.
-                           </li>
+                           <li>&nbsp;</li>
+                           <li>➡️ <b>Ser social</b> e devolver algo para a sociedade, doando para instituições de caridade nas vendas através do club exclusivo de benefícios. Vide  <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>&nbsp;</li>
+                           <li>➡️ <b>Gerar valor</b> real aos donos dos NFT's, concedendo descontos em estabelecimentos, lojas e prestadores de serviços com o nosso programa de  parcerias. Cadastro:  <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>&nbsp;</li>
                         </ol>
                      </div>
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
-                        <img src="images/missao.webp" alt="NFT Com Utilidade Real" />
+                        <img style={{margin:"70px 0px 0px 0px"}} src="images/missao.webp" alt="NFT Com Utilidade Real" />
                         <p style={{fontWeight:"bold"}}>Qual é a missão por trás do projeto: Rainforest Society NFT?</p>
                         <ol class="bullet-list">
-                           <li>➡️ Continuar com a formação de parcerias legais para ir aumentando o valor real para os donos dos NFT's e poder ajudar instituições de caridade através das doações. O projeto apoia essas causas:</li>
-                           <li>🎗️ Combate ao câncer</li>
-                           <li>🍽️ Combate à fome</li>
-                           <li>🐕 Ajuda aos animais de rua</li>
-                           <li>🎓 Acesso a Educação</li>
+                           <li>&nbsp;</li>
+                           <li>Continuar formando parcerias para aumentar o valor dos NTF's cada vez mais. <b>O projeto apoia essas causas:</b></li>
+                           <li>&nbsp;</li>
+                           <li>&nbsp;&nbsp;🎗️ Combate ao câncer</li>
+                           <li>&nbsp;&nbsp;🍽️ Combate à fome</li>
+                           <li>&nbsp;&nbsp;🐕 Ajuda aos animais de rua</li>
+                           <li>&nbsp;&nbsp;🎓 Acesso a Educação</li>
+                           <li>&nbsp;&nbsp; Mais detalhes no <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>&nbsp;</li>
                         </ol>
                      </div>
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
-                        <img src="images/conceito.webp" alt="NFT Com Utilidade Real" />
+                        <img style={{margin:"70px 0px 0px 0px"}} src="images/conceito.webp" alt="NFT Com Utilidade Real" />
                         <p style={{fontWeight:"bold"}}>Qual foi o conceito ideializado?</p>
                         <ol class="bullet-list" >
-                           <li>➡️ Instituições de Caridade: Doar uma porcentagem para fins sociais.</li>
-                           <li>➡️ Descontos Vitalícios: Enquanto a parceria existir, os donos dos NFT's podem solicitar o desconto acordado. Oferecer real utilidade e vantagens.</li>
-                           <li>➡️ Público Português: NFT voltado para amantes da língua e cultura portuguesa/brasileira.</li>
-                           <li>➡️ Arte Plajenada: Conceitualmente desenvolvido para ser usado em redes sociais, onde os personagens foram criados dentro de uma zona segura de exibição, garantindo 80-90% de visibilidade do personagem.</li>
-                           <li>➡️ Valorização da Fauna Brasileira: Arte ilustrada por um profissional, bonita de se ver, valorizando a fauna e as regiões brasileiras em alta resolução.</li>
+                           <li>&nbsp;</li>
+                           <li>➡️ <b>Instituições de Caridade:</b> Doar uma porcentagem para fins sociais. Para mais detalhes vide <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>&nbsp;</li>
+                           <li>➡️ <b>Descontos Vitalícios:</b> Enquanto as parcerias existirem, os donos dos NFT's podem usufruir dos benefícos, descontos e vantagens. Lista completa: <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>&nbsp;</li>
+                           <li>➡️ <b>Público Português:</b> NFT voltado para amantes da língua e cultura 🇧🇷 brasileira/portuguesa 🇵🇹.</li>
+                           <li>&nbsp;</li>
+                           <li>➡️ <b>Arte Plajenada:</b> Desenvolvido para uso em redes sociais, onde os personagens foram criados dentro de uma zona segura de exibição. Spoilers: <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>&nbsp;</li>
+                           <li>➡️ <b>Alta Resolução:</b> Arte ilustrada por um profissional brasileiro valorizando a fauna e as regiões brasileiras em alta resolução. (2500 x 2500 x 300dpi)</li>
+                           <li>&nbsp;</li>
                         </ol>
                      </div>
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
-                        <img src="images/roadmap.webp" alt="NFT Com Utilidade Real" />
+                        <img style={{margin:"70px 0px 0px 0px"}} src="images/roadmap.webp" alt="NFT Com Utilidade Real" />
                         <p style={{fontWeight:"bold"}}>Qual é o planejamento do projeto?</p>
                         <ol class="bullet-list" >
-                           <li>➡️ Por ser um projeto bem dinâmico, estamos planejando por etapas, já que um atraso ou adiantamento de uma etapa prévia, alteraria todo o cronograma futuro causando retrabalho. No entanto, a versão macro do nosso Roadmap esta disponível no canal de <b>"📑planejamento"</b> do Discord.</li>
+                           <li>&nbsp;</li>
+                           <li>Por ser um projeto bem dinâmico, estamos planejando por etapas, já que um atraso ou adiantamento de uma etapa, alteraria todo o cronograma futuro causando retrabalho. No entanto, a versão macro do nosso Roadmap esta disponível no canal de <b>"📑planejamento"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
+                           <li>&nbsp;</li>
                         </ol>
                      </div>
 
                      
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
-                        <img src="images/engajamento.webp" alt="NFT Com Utilidade Real" />
+                        <img style={{margin:"70px 0px 0px 0px"}} src="images/engajamento.webp" alt="NFT Com Utilidade Real" />
                         <p style={{fontWeight:"bold"}}>Como você pode se engajar na nossa comunidade?</p>
                         <ol class="bullet-list">
-                           <li>➡️ Fazendo sugestões proativas no canal de <b>"sugestões"</b> do Discord</li>
-                           <li>➡️ Indicando empresas, estabelecimentos, lojas, prestadores de serviços e/ou incentivando os mesmos a cadastrarem seus serviços/produtos aqui, pois é totalmente GRATUITO para eles e só nos agrega valor. Seu NFT ganha em valor com cada nova parceria fechada e as doações aumentam.</li>
-                           <li>➡️ Nos informando no canal de <b>"reportar-spam"</b> sobre possíveis parceiros que não cumprem com o benefício acordado para que possam ser banidos e removidos do nosso programa de parceria listado no site Rainforest Society NFT.</li>
-                           <li>➡️ Usando o material disponível no canal de <b>"divulgue"</b> para promover nossos NFT's em suas redes sociais. Assim você contribui para que seu NFT ganhe cada vez mais em valor e agregue mais utilidades para você e para toda a comunidade.</li>
-                           <li>➡️ Ensinando e/ou mostrando como convidar pessoas para o discord usando a imagem disponível no canal de <b>"📫como-convidar"</b>.</li>
-                           <li>➡️ Compartilhe apenas nossos links oficiais disponíveis no canal de <b>"links-oficiais"</b>.</li>
-                           <li>➡️ Reporte Scammers ou pessoas que estejam infrigindo com as regras definidas no canal de <b>"regras"</b> através do canal de <b>"reportar-spam"</b> para que nosso server cresça organicamente, se mantenha saudável e respeitoso.</li>
-                           <li>➡️ Tire sua dúvidas no canal de <b>"FAQ"</b> ou sugira inserção de algum tópico novo através do canal de <b>"sugestões"</b>.</li>
+                           <li>&nbsp;</li>
+                           <li>1️⃣ Fazendo sugestões no canal de <b>"sugestões"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>&nbsp;</li>
+                           <li>2️⃣ Indicando empresas, estabelecimentos, lojas, prestadores de serviços e/ou incentivando os mesmos a cadastrarem seus serviços/produtos. Saiba como: <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>&nbsp;</li>
+                           <li>3️⃣ Usando o material disponível no canal de <b>"divulgue"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a> para promover nossos NFT's em suas redes sociais.</li>
+                           <li>&nbsp;</li>
+                           <li>4️⃣ Convidando amigos para a comunidade do discord. <b>"Como se faz"</b> disponível no canal de <b>"📫como-convidar"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
+                           <li>&nbsp;</li>
+                           <li>5️⃣ Divulgando links oficiais disponíveis no canal de <b>"links-oficiais"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
+                           <li>&nbsp;</li>
                         </ol>
                      </div>
                      
