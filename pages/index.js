@@ -12,7 +12,7 @@ const data = [
          color: "#018f69"
       },
       link: {
-         url: "https://www.instagram.com/rafosociety/",
+         url: "https://discord.gg/Tr7bHA8jQj",
          text: "Esperando o que? Ofereça seu produto"
       }
    },
@@ -25,7 +25,7 @@ const data = [
          color: "#018f69"
       },
       link: {
-         url: "https://www.instagram.com/rafosociety/",
+         url: "https://discord.gg/Tr7bHA8jQj",
          text: "Não fique de fora, ofereça seu serviço"
       }
    },
@@ -38,7 +38,7 @@ const data = [
          color: "#018f69"
       },
       link: {
-         url: "https://www.instagram.com/rafosociety/",
+         url: "https://discord.gg/Tr7bHA8jQj",
          text: "Esperando o que? Ofereça seus serviços"
       }
    },
@@ -51,7 +51,7 @@ const data = [
          color: "#018f69"
       },
       link: {
-         url: "https://www.instagram.com/rafosociety/",
+         url: "https://discord.gg/Tr7bHA8jQj",
          text: "Conceda descontos também "
       }
    },
@@ -64,7 +64,7 @@ const data = [
          color: "#018f69"
       },
       link: {
-         url: "https://www.instagram.com/rafosociety/",
+         url: "https://discord.gg/Tr7bHA8jQj",
          text: "Venda mais também"
       }
    },
@@ -77,7 +77,7 @@ const data = [
          color: "#Fff"
       },
       link: {
-         url: "https://www.instagram.com/rafosociety/",
+         url: "https://discord.gg/Tr7bHA8jQj",
          text: "OFERECER"
       }
    }
@@ -170,7 +170,7 @@ function Home() {
                   <div class="flex flex-col items-center justify-center flex-1 bullet">
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
                         <img style={{margin:"70px 0px 0px 0px"}} src="images/proposito3.webp" alt="NFT Com Utilidade Real" />
-                        <p style={{fontWeight:"bold"}}>Qual é o valor que queremos agregar a sociedade com o projeto <i>"Rainforest Society NFT"</i>?</p>
+                        <p style={{fontWeight:"bold"}}>Qual é o valor que queremos agregar a sociedade com o projeto <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Rainforest Society NFT </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="images/logo.webp" alt="Rainforest Society NFT" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a> ?</p>
                         <ol class="bullet-list">
                            <li>&nbsp;</li>
                            <li>➡️ <b>Ser social</b> e devolver algo para a sociedade, doando para instituições de caridade nas vendas através do club exclusivo de benefícios. Vide  <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
@@ -224,18 +224,18 @@ function Home() {
                      
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
                         <img style={{margin:"70px 0px 0px 0px"}} src="images/engajamento.webp" alt="NFT Com Utilidade Real" />
-                        <p style={{fontWeight:"bold"}}>Como você pode se engajar na nossa comunidade?</p>
+                        <p style={{fontWeight:"bold"}}>Como você pode largar na frente na nossa comunidade?</p>
                         <ol class="bullet-list">
                            <li>&nbsp;</li>
-                           <li>1️⃣ Fazendo sugestões no canal de <b>"sugestões"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>1️⃣ Quem trouxer <b>apenas 2</b> amigos e nos seguir no  <a href="https://twitter.com/rafosociety" class=" text-green-200"> Twitter </a><a class="" href="https://twitter.com/rafosociety"><img src="svg/twitter.svg" alt="Twitter" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a> e  <a href="https://www.instagram.com/rafosociety/" class=" text-green-200"> Instagram </a><a class="" href="https://www.instagram.com/rafosociety/"><img src="svg/instagram.svg" alt="Instagram" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>, entra para a <b>📑 white list</b> da prê-venda exclusiva.</li>
                            <li>&nbsp;</li>
                            <li>2️⃣ Indicando empresas, estabelecimentos, lojas, prestadores de serviços e/ou incentivando os mesmos a cadastrarem seus serviços/produtos. Saiba como: <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
                            <li>3️⃣ Usando o material disponível no canal de <b>"divulgue"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a> para promover nossos NFT's em suas redes sociais.</li>
                            <li>&nbsp;</li>
-                           <li>4️⃣ Convidando amigos para a comunidade do discord. <b>"Como se faz"</b> disponível no canal de <b>"📫como-convidar"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
+                           <li>4️⃣ Convidando amigos para a comunidade do discord. <b>"Como fazer"</b> disponível no canal de <b>"📫 como convidar"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
                            <li>&nbsp;</li>
-                           <li>5️⃣ Divulgando links oficiais disponíveis no canal de <b>"links-oficiais"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
+                           <li>5️⃣ Divulgando links oficiais disponíveis no canal de <b>"links oficiais"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
                            <li>&nbsp;</li>
                         </ol>
                      </div>
