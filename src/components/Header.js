@@ -11,7 +11,8 @@ export default class Header extends Component {
             <meta name="viewport" content="width=device-width"/>
             <meta charset="utf-8"/>
             
-            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7_dtp.css" rel="stylesheet" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            
             <link rel="icon" href="favicon/favicon.ico" />
             <link rel="preload" href="/fonts/Anton-Regular.ttf" as="font" crossOrigin="" />
             <link rel="preload" href="/fonts/LuckiestGuy-Regular.ttf" as="font" crossOrigin=""/>
