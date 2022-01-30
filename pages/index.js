@@ -1,4 +1,5 @@
 
+import CardSlider from '../src/components/CardSlider'
 import Header from '../src/components/Header'
 import Timeline from '../src/components/Timeline'
 
@@ -175,59 +176,59 @@ function Home() {
                         <li>&nbsp;</li>
                            <li>A <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Rainforest Society NFT </a> tem como propósito oferecer aos clientes não só um NFT que concede descontos e benefícios exclusivos aos seus portadores. Acreditamos no ser social, apoiando ongs, instituições de caridade e projetos tais como:</li>
                            <li>&nbsp;</li>
-                           <li>&nbsp;&nbsp;🎗️ Combate ao câncer</li>
-                           <li>&nbsp;&nbsp;🍽️ Combate à fome</li>
-                           <li>&nbsp;&nbsp;🐕 Ajuda aos animais de rua</li>
-                           <li>&nbsp;&nbsp;🎓 Acesso a Educação &#8680; <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>&nbsp;&nbsp;<i class="fas fa-ribbon"></i> Combate ao câncer</li>
+                           <li>&nbsp;&nbsp;<i class="fas fa-utensils"></i> Combate à fome</li>
+                           <li>&nbsp;&nbsp;<i class="fas fa-paw"></i> Ajuda aos animais de rua</li>
+                           <li>&nbsp;&nbsp;<i class="fas fa-user-graduate"></i> Acesso a Educação <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
                         </ol>
                      </div>
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
                         <img style={{margin:"70px 0px 0px 0px"}} src="images/missao.webp" alt="NFT Com Utilidade Real" />
-                        <p style={{fontWeight:"bold"}}>Qual é a missão por trás do projeto?</p>
+                        <p >Qual é a missão por trás do projeto?</p>
                         <ol class="bullet-list">
-                           <li>Continuar formando parcerias que agreguem ainda mais valor ao NFT, trazendo assim muito mais benefícios. Mais detalhes &#8680; <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>Continuar formando parcerias que agreguem ainda mais valor ao NFT, trazendo assim muito mais benefícios. Mais detalhes <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
                         </ol>
                      </div>
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
                         <img style={{margin:"70px 0px 0px 0px"}} src="images/conceito.webp" alt="NFT Com Utilidade Real" />
-                        <p style={{fontWeight:"bold"}}>O que é um NFT (Token Não Fungível) na prática?</p>
+                        <p >O que é um NFT (Token Não Fungível) na prática?</p>
                         <ol class="bullet-list" >
                            <li>&nbsp;</li>
-                           <li>➡️ <b>Um NFT</b> pode-se ser entendido como uma posse digital ou física (na maioria dos casos digital) sobre artes, direitos autoráis sobre músicas, acesso restrito ou exclusivo a clubs, passe livre para enventos, descontos ou condições especiais nas compras em estabelecimentos, lojas ou serviços. Assegure o seu e entre na <b>Lista de espera</b> &#8680; <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li><b>Um NFT</b> pode-se ser entendido como uma posse digital ou física (na maioria dos casos digital) sobre artes, direitos autoráis sobre músicas, acesso restrito ou exclusivo a clubs, passe livre para enventos, descontos ou condições especiais nas compras em estabelecimentos, lojas ou serviços. Assegure o seu e entre na <b>Lista de espera</b> <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
                         </ol>
-                        <p style={{fontWeight:"bold"}}>Por que investir em um NFT?</p>
+                        <p >Por que investir em um NFT?</p>
                         <ol class="bullet-list" >
                            <li>&nbsp;</li>
-                           <li>➡️ <b>Descontos Vitalícios:</b> Enquanto as parcerias existirem, os donos dos NFT's podem usufruir dos benefícos, descontos e vantagens. Lista completa &#8680;<a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li><i class="fas fa-check-circle"/> <b>Descontos Vitalícios:</b> Enquanto as parcerias existirem, os donos dos NFT's podem usufruir dos benefícos, descontos e vantagens. Lista completa<a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
-                           <li>➡️ <b>Arte Plajenada:</b> Desenvolvido para uso em redes sociais, onde os personagens foram criados dentro de uma zona segura de exibição. Spoilers &#8680;<a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li><i class="fas fa-check-circle"/> <b>Arte Plajenada:</b> Desenvolvido para uso em redes sociais, onde os personagens foram criados dentro de uma zona segura de exibição. Spoilers<a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
-                           <li>➡️ <b>Alta Resolução:</b> Arte ilustrada por um profissional brasileiro valorizando a fauna e as regiões brasileiras em alta resolução. (2500 x 2500 x 300dpi)</li>
+                           <li><i class="fas fa-check-circle"/> <b>Alta Resolução:</b> Arte ilustrada por um profissional brasileiro valorizando a fauna e as regiões brasileiras em alta resolução. (2500 x 2500 x 300dpi)</li>
                            <li>&nbsp;</li>
-                           <li>➡️ <b>Cultura Pop:</b> NFT criado para público da cultura pop. Vide &#8680; <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li><i class="fas fa-check-circle"/> <b>Cultura Pop:</b> NFT criado para público da cultura pop. Vide <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
                         </ol>
 
-                        <p style={{fontWeight:"bold"}}>Por que deveria oferecer meu produto ou serviço através do NFT?</p>
+                        <p >Por que deveria oferecer meu produto ou serviço através do NFT?</p>
                         <ol class="bullet-list" >
                            <li>&nbsp;</li>
-                           <li>➡️ <b>Receira Recorrente:</b> Como empreendedor, o que mais desejo, são clientes fieis e recorrentes. Oferecendo seu produto ou serviço através do NFT, você fideliza seu cliente sem gastar nada, gerando uma situação ganha/ganha para ambos. Clientes e Empreendedores. <b>Veja como</b> &#8680;<a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li><i class="fas fa-money-bill-wave"></i> <b>Receira Recorrente:</b> Como empreendedor, o que mais desejo, são clientes fieis e recorrentes. Oferecendo seu produto ou serviço através do NFT, você fideliza seu cliente sem gastar nada, gerando uma situação ganha/ganha para ambos. Clientes e Empreendedores. <b>Veja como</b><a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
-                           <li>➡️ <b>Canal Extra de Vendas:</b> Você potencializa suas vendas, fideliza seu público alvo, aumenta seu faturamento e sua base de clientes. <b>Ofereça aqui</b> &#8680;<a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li><i class="fas fa-funnel-dollar"></i> <b>Canal Extra de Vendas:</b> Você potencializa suas vendas, fideliza seu público alvo, aumenta seu faturamento e sua base de clientes. <b>Ofereça aqui</b><a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
-                           <li>➡️ <b>Redução de Custos:</b> Qualquer empreendedor sabe que o Marketing é um dos centros de custo que mais se desperdiça dinheiro com eficácia baixa. Oferecer seu produdo/serviço através do NFT, te abre um novo canal de <b>vendas orgânicas</b>, antes inimaginável. <b>Ofereça aqui</b> &#8680;<a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li><i class="fas fa-cut"></i> <b>Redução de Custos:</b> Qualquer empreendedor sabe que o Marketing é um dos centros de custo que mais se desperdiça dinheiro com eficácia baixa. Oferecer seu produdo/serviço através do NFT, te abre um novo canal de <b>vendas orgânicas</b>, antes inimaginável. <b>Ofereça aqui</b><a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
                         </ol>
                      </div>
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
                         <img style={{margin:"70px 0px 0px 0px"}} src="images/roadmap.webp" alt="NFT Com Utilidade Real" />
-                        <p style={{fontWeight:"bold"}}>Qual é o roadmap (planejamento) do projeto?</p>
+                        <p >Qual é o roadmap (planejamento) do projeto?</p>
                         <ol class="bullet-list" >
                            <li>&nbsp;</li>
-                           <li>Por ser um projeto bem dinâmico, estamos planejando por etapas, já que um atraso ou adiantamento de uma etapa, alteraria todo o cronograma futuro causando retrabalho. No entanto, a versão macro do nosso Roadmap esta disponível no canal de <b>"📑planejamento"</b> &#8680; <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
+                           <li>Por ser um projeto bem dinâmico, estamos planejando por etapas, já que um atraso ou adiantamento de uma etapa, alteraria todo o cronograma futuro causando retrabalho. No entanto, a versão macro do nosso Roadmap esta disponível no canal de <b>"📑planejamento"</b> <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
                            <li>&nbsp;</li>
                         </ol>
                      </div>
@@ -235,27 +236,28 @@ function Home() {
                      
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
                         <img style={{margin:"70px 0px 0px 0px"}} src="images/engajamento.webp" alt="NFT Com Utilidade Real" />
-                        <p style={{fontWeight:"bold"}}>Como você pode largar na frente na nossa comunidade?</p>
+                        <p >Como você pode largar na frente na nossa comunidade?</p>
                         <ol class="bullet-list">
                            <li>&nbsp;</li>
-                           <li>1️⃣ Quem trouxer <b>apenas 2</b> amigos e nos seguir no  <a href="https://twitter.com/rafosociety" class=" text-green-200"> Twitter </a><a class="" href="https://twitter.com/rafosociety"><img src="svg/twitter.svg" alt="Twitter" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a> e  <a href="https://www.instagram.com/rafosociety/" class=" text-green-200"> Instagram </a><a class="" href="https://www.instagram.com/rafosociety/"><img src="svg/instagram.svg" alt="Instagram" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>, entra para a <b>📑 white list</b> da prê-venda exclusiva.</li>
+                           <li><i class="fas fa-share-alt"></i> Convide <b>2 amigos</b> e nos seguir no  <a href="https://twitter.com/rafosociety" class=" text-green-200"> Twitter </a><a class="" href="https://twitter.com/rafosociety"><img src="svg/twitter.svg" alt="Twitter" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a> e  <a href="https://www.instagram.com/rafosociety/" class=" text-green-200"> Instagram </a><a class="" href="https://www.instagram.com/rafosociety/"><img src="svg/instagram.svg" alt="Instagram" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>, entra para a <b>📑 white list</b> da prê-venda exclusiva.</li>
                            <li>&nbsp;</li>
-                           <li>2️⃣ Indicando empresas, estabelecimentos, lojas, prestadores de serviços e/ou incentivando os mesmos a cadastrarem seus serviços/produtos. Saiba como &#8680; <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li><i class="fas fa-building"></i> Incentive empresas, estabelecimentos, lojas e prestadores de serviços a oferecerem seus serviços/produtos. Saiba como <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
-                           <li>3️⃣ Usando o material disponível no canal de <b>"divulgue"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a> para promover nossos NFT's em suas redes sociais.</li>
+                           <li><i class="fas fa-thumbs-up"></i> Use o material oficial de promoção disponível no canal de <b>"divulgue"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
-                           <li>4️⃣ Convidando amigos para a comunidade do discord. <b>"Como fazer"</b> disponível no canal de <b>"📫 como convidar"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
+                           <li><i class="fas fa-gamepad"></i> Torne-se <b>moderador</b> oficial da nossa comunidade no <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a> e ganhe 5 NFT's.</li>
                            <li>&nbsp;</li>
-                           <li>5️⃣ Divulgando links oficiais disponíveis no canal de <b>"links oficiais"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
+                           <li><i class="fas fa-ad"></i> Divulgue os links oficiais disponíveis no canal de <b>"links oficiais"</b> do <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
                            <li>&nbsp;</li>
-                           <li>6️⃣ Os membros <b>mais ativos</b> no <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>, receberão convites para virar <b>moderadores</b> ou <b>integrantes oficiais</b> do time e ganharão NFT's como recompensa 🏆. </li>
+                           <li><i class="fas fa-gift"></i> Os membros <b>mais ativos</b> no <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>, receberão convites para virar <b>moderadores</b> ou <b>integrantes oficiais</b> do time e ganharão NFT's como recompensa 🏆. </li>
                            <li>&nbsp;</li>
                         </ol>
                      </div>
                      
                   </div>
 
-
+                  <h1 class="text-sea-700">The Team</h1>
+                  <CardSlider />
                   <h1 class="text-sea-700">Parcerias já fechadas</h1>
                   <Timeline timelineData={data} />
 
