@@ -119,6 +119,7 @@ function Home() {
 
                {/* # CABECALHO COM PNG */}
                <header class="flex flex-col items-center justify-center h-full text-center">
+                  <p>&nbsp;</p>
                   <h1 class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Rainforest Society NFT<br /> <br /></h1>
                   <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36">
                      <img src="images/banner-rainforest-society-nft.webp" alt="NFT Com Utilidade Real" />
@@ -130,8 +131,8 @@ function Home() {
                   <div class="h-2"></div>
 
                   {/* # DESCRICÃO */}
-                  <h2 class="text-3xl font-bold md:text-5xl leading-solid text-sea-700">O primeiro NFT que dá descontos!<br />Formando parcerias até Abril 2022.</h2>
-                  <p class="tracking-wider text-green-200">Ofereça seu produto ou serviço GRATIS! Acesse o Discord!</p>
+                  <h2 class="text-3xl md:text-5xl leading-solid text-sea-700">O NFT que te dá descontos!<br />Ofereça seu serviço ou produto.</h2>
+                  <p class="tracking-wider text-green-200">Ofereça <i class="fas fa-arrow-circle-down"></i> sem custo!</p>
 
                   {/* # CONTAINER BOTÕES    */}
                   <div class="flex items-center justify-center text-base md:text-xl space-x-2">
@@ -170,7 +171,9 @@ function Home() {
 
                   <div class="flex flex-col items-center justify-center flex-1 bullet">
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
-                        <img style={{margin:"70px 0px 0px 0px"}} src="images/proposito3.webp" alt="NFT Com Utilidade Real" />
+                        {/* <img style={{margin:"70px 0px 0px 0px"}} src="images/proposito3.webp" alt="NFT Com Utilidade Real" /> */}
+                        <h1 style={{margin:"140px 0px 0px 0px"}} class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Propósito</h1>
+                        <h2 style={{margin:"0px 0px 20px 0px"}} class="text-3xl md:text-5xl leading-solid text-sea-700">Qual é o propósito do projeto?</h2>
                      
                         <ol class="bullet-list">
                         <li>&nbsp;</li>
@@ -181,27 +184,31 @@ function Home() {
                            <li>&nbsp;&nbsp;<i class="fas fa-paw"></i> Ajuda aos animais de rua</li>
                            <li>&nbsp;&nbsp;<i class="fas fa-user-graduate"></i> Acesso a Educação </li>
                            <li>&nbsp;</li>
-                           <li>&nbsp;&nbsp;Mais detalhes no <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
-                           <li>&nbsp;</li>
+                           {/* <li>&nbsp;&nbsp;Mais detalhes no <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>&nbsp;</li> */}
                         </ol>
                      </div>
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
-                        <img style={{margin:"70px 0px 0px 0px"}} src="images/missao.webp" alt="NFT Com Utilidade Real" />
-                        <p ><b>Qual é a missão do projeto?</b></p>
+                        {/* <img style={{margin:"70px 0px 0px 0px"}} src="images/missao.webp" alt="NFT Com Utilidade Real" /> */}
+                        <h1 style={{margin:"140px 0px 0px 0px"}} class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Missão</h1>
+                        <h2 style={{margin:"0px 0px 20px 0px"}} class="text-3xl md:text-5xl leading-solid text-sea-700">Qual é a missão do projeto?</h2>
+                        {/* <p ><b>Qual é a missão do projeto?</b></p> */}
                         <ol class="bullet-list">
                            <li>Continuar formando parcerias que agreguem ainda mais valor ao NFT, trazendo assim muito mais benefícios. Lista completa de benefícos você encontra <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
                         </ol>
                      </div>
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
-                        <img style={{margin:"70px 0px 0px 0px"}} src="images/conceito.webp" alt="NFT Com Utilidade Real" />
-                        <p ><b>O que é um NFT (Token Não Fungível) na prática?</b></p>
+                        {/* <img style={{margin:"70px 0px 0px 0px"}} src="images/conceito.webp" alt="NFT Com Utilidade Real" /> */}
+                        <h1 style={{margin:"140px 0px 0px 0px"}} class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Conceito</h1>
+                        <h2 style={{margin:"0px 0px 20px 0px"}} class="text-3xl md:text-5xl leading-solid text-sea-700">O que é um NFT (Token Não Fungível)?</h2>
+                        {/* <p ><b>O que é um NFT (Token Não Fungível) na prática?</b></p> */}
                         <ol class="bullet-list" >
-                           <li>&nbsp;</li>
                            <li><b>Um NFT</b> pode-se ser entendido como uma posse digital ou física (na maioria dos casos digital) sobre artes, direitos autoráis sobre músicas, acesso restrito ou exclusivo a clubs, passe livre para enventos, descontos ou condições especiais nas compras em estabelecimentos, lojas ou serviços. Assegure o seu por um preço promocional entrando na <b>lista de pré-venda</b> <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
                         </ol>
-                        <p ><b>Por que investir em um NFT? (como consumidor)</b></p>
+                        {/* <p ><b>Por que investir em um NFT? (como consumidor)</b></p> */}
+                        <h2 style={{margin:"20px 0px 10px 0px"}} class="text-3xl md:text-5xl leading-solid text-sea-700">Por que investir em um NFT?<br/>(como consumidor)</h2>
                         <ol class="bullet-list" >
                            <li>&nbsp;</li>
                            <li><i class="fas fa-check-circle"/> <b>Descontos Vitalícios:</b> Enquanto as parcerias existirem, os donos dos NFT's podem usufruir dos benefícos, descontos e vantagens. Lista complet:<a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
@@ -214,7 +221,8 @@ function Home() {
                            <li>&nbsp;</li>
                         </ol>
 
-                        <p ><b>Por que oferecer produtos ou serviços através do NFT? (como fornecedor)</b></p>
+                        {/* <p ><b>Por que oferecer produtos ou serviços através do NFT? (como fornecedor)</b></p> */}
+                        <h2 style={{margin:"20px 0px 10px 0px"}} class="text-3xl md:text-5xl leading-solid text-sea-700">Por que oferecer produtos ou serviços?<br/>(como fornecedor)</h2>
                         <ol class="bullet-list" >
                            <li>&nbsp;</li>
                            <li><i class="fas fa-money-bill-wave"></i> <b>Receita Recorrente:</b> Como empreendedor, o que mais desejo, são clientes fieis e recorrentes. Oferecendo seu produto ou serviço através do NFT, você <b>fideliza</b> seu cliente sem gastar nada, gerando uma situação ganha/ganha para ambos, clientes e empreendedores. <b>Mais receita:</b><a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
@@ -226,10 +234,11 @@ function Home() {
                         </ol>
                      </div>
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
-                        <img style={{margin:"70px 0px 0px 0px"}} src="images/roadmap.webp" alt="NFT Com Utilidade Real" />
-                        <p ><b>Qual é o roadmap (planejamento) do projeto?</b></p>
+                        {/* <img style={{margin:"70px 0px 0px 0px"}} src="images/roadmap.webp" alt="NFT Com Utilidade Real" /> */}
+                        <h1 style={{margin:"140px 0px 0px 0px"}} class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Roadmap</h1>
+                        <h2 style={{margin:"0px 0px 20px 0px"}} class="text-3xl md:text-5xl leading-solid text-sea-700">Qual é o planejamento do projeto?</h2>
+                        {/* <p ><b>Qual é o roadmap (planejamento) do projeto?</b></p> */}
                         <ol class="bullet-list" >
-                           <li>&nbsp;</li>
                            <li>Por ser um projeto bem dinâmico, estamos planejando por etapas, já que um atraso ou adiantamento de uma etapa, alteraria todo o cronograma futuro causando retrabalho. No entanto, a versão macro do nosso Roadmap esta disponível no canal de <b>"📑planejamento"</b> no <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
                            <li>&nbsp;</li>
                         </ol>
@@ -237,10 +246,11 @@ function Home() {
 
                      
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
-                        <img style={{margin:"70px 0px 0px 0px"}} src="images/engajamento.webp" alt="NFT Com Utilidade Real" />
-                        <p ><b>Como largar na frente na nossa comunidade?</b></p>
+                        {/* <img style={{margin:"70px 0px 0px 0px"}} src="images/engajamento.webp" alt="NFT Com Utilidade Real" /> */}
+                        <h1 style={{margin:"140px 0px 0px 0px"}} class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Early Bird</h1>
+                        <h2 style={{margin:"0px 0px 20px 0px"}} class="text-3xl md:text-5xl leading-solid text-sea-700">Como largar na frente?</h2>
+                        {/* <p ><b>Como largar na frente na nossa comunidade?</b></p> */}
                         <ol class="bullet-list">
-                           <li>&nbsp;</li>
                            <li><i class="fas fa-share-alt"></i> Convide <b>2 amigos</b>, nos siga no  <a href="https://twitter.com/rafosociety" class=" text-green-200"> Twitter </a><a class="" href="https://twitter.com/rafosociety"><img src="svg/twitter.svg" alt="Twitter" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a> e  <a href="https://www.instagram.com/rafosociety/" class=" text-green-200"> Instagram </a><a class="" href="https://www.instagram.com/rafosociety/"><img src="svg/instagram.svg" alt="Instagram" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>, entre para a lista de <b>📑 pré-venda</b> exclusiva.</li>
                            <li>&nbsp;</li>
                            <li><i class="fas fa-building"></i> Incentive empresas, estabelecimentos, lojas e prestadores de serviços a oferecerem seus serviços/produtos. Vide <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
@@ -258,7 +268,7 @@ function Home() {
                      
                   </div>
 
-                  <h1 class="text-sea-700">The Team</h1>
+                  <h1 class="text-sea-700">O Time</h1>
                   <CardSlider />
                   <h1 class="text-sea-700">Parcerias já fechadas</h1>
                   <Timeline timelineData={data} />
