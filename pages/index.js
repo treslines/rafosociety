@@ -199,7 +199,6 @@ function Home() {
                         <h2 style={{margin:"0px 0px 20px 0px"}} class="text-3xl md:text-5xl leading-solid text-sea-700">Qual é o aspecto social do projeto?</h2>
                      
                         <ol class="bullet-list">
-                        <li>&nbsp;</li>
                            <li>Acreditamos no <b>ser social</b>, apoiando ONGs, instituições de caridade e projetos tais como:</li>
                            <li>&nbsp;</li>
                            <li>&nbsp;&nbsp;<i class="fas fa-ribbon"></i> Combate ao câncer</li>
