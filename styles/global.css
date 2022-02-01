@@ -290,3 +290,12 @@ section .card .image img{
 .fa-xs {
   margin-bottom: 10px;
 }
+
+ /* -------------- Footer -------------------- */
+
+ .footer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  color: #333;
+ }
