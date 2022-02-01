@@ -20,7 +20,7 @@ export default class CardSlider extends Component {
                            </div>
                            <div class="name-profession">
                               <span class="name">Ricardo F.</span>
-                              <span class="profession">Founder | Techled</span>
+                              <span class="profession">Founder | Techlead</span>
                            </div>
                         </div>
                      </div>
