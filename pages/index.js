@@ -1,4 +1,5 @@
 
+import GifSlider from '../src/components/GifSlider'
 import CardSlider from '../src/components/CardSlider'
 import Header from '../src/components/Header'
 import Timeline from '../src/components/Timeline'
@@ -9,7 +10,7 @@ const data = [
       title: "O clube exclusivo da Rainforest Society NFT te concede 20% em polos, sapatênis, carteiras e sintos.",
       description: "Desconto válido/item, porém não comulativos. Envio para todo 🇧🇷 em 7-15dias",
       category: {
-         tag: "-20%",
+         tag: "20%",
          color: "#018f69"
       },
       link: {
@@ -22,7 +23,7 @@ const data = [
       title: "Receba os descontos publicados no Instagram oficial da Brasil Apartamentos Recife que podem chegar a até 40%.",
       description: "Desconto válido/imóvel, porém não comulativos.",
       category: {
-         tag: "-40%",
+         tag: "40%",
          color: "#018f69"
       },
       link: {
@@ -35,7 +36,7 @@ const data = [
       title: "Receba 10% em cada hora/aula com a professora nativa, licenciada e Pós-Graduada online.",
       description: "Desconto aplicável hora/aula, porém não comulativos.",
       category: {
-         tag: "-10%",
+         tag: "10%",
          color: "#018f69"
       },
       link: {
@@ -48,7 +49,7 @@ const data = [
       title: "A Conrado Advocadia Goiânia concede 5% desconto em consultas jurídicas.",
       description: "Descontos se aplicam para cada consulta, porém não comulativos.",
       category: {
-         tag: "-5%",
+         tag: "5%",
          color: "#018f69"
       },
       link: {
@@ -61,7 +62,7 @@ const data = [
       title: "A BarzinhoShow em Goiânia te oferece 10% em qualquer serviço ou pacote.",
       description: "Descontos válidos para cada serviço ou pacote, não comulativos.",
       category: {
-         tag: "-10%",
+         tag: "10%",
          color: "#018f69"
       },
       link: {
@@ -174,8 +175,9 @@ function Home() {
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
                         {/* <img style={{margin:"70px 0px 0px 0px"}} src="images/proposito3.webp" alt="NFT Com Utilidade Real" /> */}
                         <h1 style={{margin:"140px 0px 0px 0px"}} class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Collection</h1>
-                        <h2 style={{margin:"0px 0px 20px 0px"}} class="text-3xl md:text-5xl leading-solid text-sea-700">8888 Unique NFT's</h2>
+                        <h2 style={{margin:"0px 0px 0px 0px"}} class="text-3xl md:text-5xl leading-solid text-sea-700">8888 Unique NFT's</h2>
                      
+                        <GifSlider />
                         <ol class="bullet-list">
                         <li>&nbsp;</li>
                            <li><i class="fas fa-check-circle"/> Rainforest Society é uma coleção de 8.888 NFTs &#8211; número de prosperidade e abundância, representado por animais da fauna brasileira como uma peça de arte digital. Com mais de 10 bilhões de traços, nossa coleção será uma das mais diversificadas e detalhadas.</li>
@@ -299,7 +301,7 @@ function Home() {
             </div>
          </div>
          <div class="flex flex-col items-center justify-center flex-1">
-            <p class="tracking-wider text-green-200 footer">&#169; 2021 Rainforest Society NFT. All rights reserved</p>
+            <p class="tracking-wider text-green-200 footer">&#169; 2021-2022 Rainforest Society NFT. All rights reserved</p>
          </div>
       </div>
    )
