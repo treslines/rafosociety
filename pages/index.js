@@ -4,6 +4,100 @@ import CardSlider from '../src/components/CardSlider'
 import Header from '../src/components/Header'
 import Timeline from '../src/components/Timeline'
 
+const plan = [
+   {
+      header: "04/22 Comunidade",
+      title: "Promover projeto em redes sociais.",
+      description: "",
+      category: {
+         tag: "Abr",
+         color: "rgb(48 59 65/var(--tw-text-opacity))"
+      },
+      link: {
+         url: "https://www.instagram.com/rafosociety/",
+         text: "Nos ajude!"
+      }
+   },
+   {
+      header: "05/22 Parcerias",
+      title: "Fechar parcerias, convidar embaixadores influencers.",
+      description: "",
+      category: {
+         tag: "Mai",
+         color: "rgb(48 59 65/var(--tw-text-opacity))"
+      },
+      link: {
+         url: "https://www.instagram.com/rafosociety/",
+         text: "Nos indique pessoas"
+      }
+   },
+   {
+      header: "06/22 Raridade",
+      title: "Geração dos NFT's",
+      description: "Comum, Especial, Épico, Lendário, Único.",
+      category: {
+         tag: "Jun",
+         color: "rgb(48 59 65/var(--tw-text-opacity))"
+      },
+      link: {
+         url: "https://www.instagram.com/rafosociety/",
+         text: "Nos acompanhe"
+      }
+   },
+   {
+      header: "07/22 Website",
+      title: "Finalização do site",
+      description: "",
+      category: {
+         tag: "JUL",
+         color: "rgb(48 59 65/var(--tw-text-opacity))"
+      },
+      link: {
+         url: "https://discord.gg/Tr7bHA8jQj",
+         text: "Nos acompanhe no Discord"
+      }
+   },
+   {
+      header: "Pré-Sale",
+      title: "Abertura da pré-vanda apenas os early birds listadas na white list",
+      description: "Quer entrar para lista de espera com condições e preços especias?",
+      category: {
+         tag: "TBD",
+         color: "rgb(48 59 65/var(--tw-text-opacity))"
+      },
+      link: {
+         url: "https://discord.gg/Tr7bHA8jQj",
+         text: "Entra no Discord"
+      }
+   },
+   {
+      header: "Pré-Sale Discord",
+      title: "Abertura pré-venda apenas para membros do discord",
+      description: "Sua 2° chance!",
+      category: {
+         tag: "TBD",
+         color: "rgb(48 59 65/var(--tw-text-opacity))"
+      },
+      link: {
+         url: "https://discord.gg/Tr7bHA8jQj",
+         text: "Acessa  Discord"
+      }
+   },
+   {
+      header: "Venda Pública",
+      title: "Abertura ao público e publicação na OpenSea",
+      description: "Sua última chance de adequirir seu cartão fidelidade vitalício.",
+      category: {
+         tag: "TBD",
+         color: "rgb(48 59 65/var(--tw-text-opacity))"
+      },
+      link: {
+         url: "https://discord.gg/Tr7bHA8jQj",
+         text: "Se liga no Discord"
+      }
+   }
+]
+
 const data = [
    {
       header: "🇧🇷 Moda Masculina",
@@ -71,12 +165,38 @@ const data = [
       }
    },
    {
+      header: "Jéssica Dias 🇧🇷",
+      title: "Advogada Trabalhista Empresarial em Recife te oferece 10% em consultas jurídicas, 20% em parecer jurídico e 30% em consultoria mensal.",
+      description: "Descontos válidos/ serviço, não comulativos.",
+      category: {
+         tag: "30%",
+         color: "#018f69"
+      },
+      link: {
+         url: "https://discord.gg/Tr7bHA8jQj",
+         text: "Confere aqui!"
+      }
+   },
+   {
+      header: "🇧🇷 Robson Texeira",
+      title: "Ilustrador profissional em Fortaleza te oferece 15% em pacotes de ilustração.",
+      description: "Descontos válidos/ pacote, não comulativos.",
+      category: {
+         tag: "15%",
+         color: "#018f69"
+      },
+      link: {
+         url: "https://discord.gg/Tr7bHA8jQj",
+         text: "Veja a arte!"
+      }
+   },
+   {
       header: "VENDA MUITO MAIS!",
       title: "Fidelize seus clientes de maneira orgânica e GRATUITA!",
       description: "Ofereça seus produtos ou serviços!",
       category: {
          tag: "🚀",
-         color: "#Fff"
+         color: "transparent"
       },
       link: {
          url: "https://discord.gg/Tr7bHA8jQj",
@@ -218,7 +338,7 @@ function Home() {
                         <h2 style={{margin:"0px 0px 20px 0px"}} class="text-3xl md:text-5xl leading-solid text-sea-700">Qual é a missão do projeto?</h2>
                         {/* <p ><b>Qual é a missão do projeto?</b></p> */}
                         <ol class="bullet-list">
-                           <li>Continuar formando parcerias, aumentando assim os benefícios e valor do NFT no decorrer do tempo. Lista completa de benefícos você encontra <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
+                           <li>Continuar formando parcerias, aumentando assim os benefícios, exclusividades e valor do NFT no decorrer do tempo. Lista completa de benefícos você encontra <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                            <li>&nbsp;</li>
                         </ol>
                      </div>
@@ -266,9 +386,13 @@ function Home() {
                            <li>Por ser um projeto bem dinâmico, estamos planejando por etapas, já que um atraso ou adiantamento de uma etapa, alteraria todo o cronograma futuro causando retrabalho. No entanto, a versão macro do nosso Roadmap esta disponível no canal de <b>"📑planejamento"</b> no <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-200"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a>.</li>
                            <li>&nbsp;</li>
                         </ol>
-                     </div>
-
                      
+                     </div>
+                  </div>
+                     <h1 class="text-sea-700">Roadmap Idealizado</h1>
+                        <Timeline timelineData={plan} />
+
+                  <div class="flex flex-col items-center justify-center flex-1 bullet">   
                      <div class="w-full md:w-[600px] -mt-16 md:-mt-32 lg:-mt-36" >
                         {/* <img style={{margin:"70px 0px 0px 0px"}} src="images/engajamento.webp" alt="NFT Com Utilidade Real" /> */}
                         <h1 style={{margin:"140px 0px 0px 0px"}} class="text-6xl text-green-200 md:text-8xl lg:text-9xl leading-solid ">Early Bird</h1>
