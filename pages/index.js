@@ -246,7 +246,7 @@ function Home() {
                      <div class="px-2 mt-8 md:mt-12 lg:mt-24">
                         <h1 class="text-green-700 text-xl md:text-2xl lg:text-5xl tracking-normal leading-solid ">Conheça os Guardiões da Floresta</h1>
                      </div>
-                     <h1  class="py-0.5 px-2 mb-10 text-xs md:text-xl lg:text-xl leading-solid tracking-wide text-sea-700">Um grupo especial de super-herois mutantes que amam nada mais do que proteger o meio ambiente.</h1>
+                     <h1  class="py-0.5 px-2 mb-10 text-xs md:text-xl lg:text-xl leading-solid tracking-wide text-sea-700">Um grupo especial de super-heróis mutantes que amam nada mais do que proteger o meio ambiente.</h1>
                </header>
 
                {/* # carrossel */}
