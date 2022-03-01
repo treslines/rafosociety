@@ -292,11 +292,11 @@ function Home() {
                         <h2 class="mb-1 text-sea-700 text-3xl md:text-3xl leading-solid ">Exclusividade</h2>
                         <ol class="bullet-list">
                            <li>&nbsp;</li>
-                           <li><i class="fas fa-check-circle"/> Rainforest Society é uma coleção de 8.888 NFTs, representado por animais da fauna brasileira como uma peça de arte digital. Com mais de 10 bilhões de traços, nossa coleção será uma das mais diversificadas e detalhadas.</li>
+                           <li><i class="fas fa-check-circle"/> Rainforest Society é uma coleção de 8.888 NFTs, representado por animais da fauna brasileira como uma peça de arte digital. Com mais de <b>10 bilhões de traços</b>, nossa coleção será uma das mais diversificadas e detalhadas.</li>
                            <li>&nbsp;</li>
-                           <li><i class="fas fa-check-circle"/> Nosso objetivo é construir um NFT fidelidade, unindo estabelecimentos, lojas, shoppings, restaurantes, prestadores de serviços e clubs, ao consumidor final através de descontos, acessos ou benefícios exclusivos.</li>
+                           <li><i class="fas fa-check-circle"/> Nosso objetivo é construir um <b>NFT fidelidade</b>, unindo estabelecimentos, lojas, shoppings, restaurantes, prestadores de serviços e clubs, ao consumidor final através de descontos, acessos ou benefícios exclusivos.</li>
                            <li>&nbsp;</li>
-                           <li><i class="fas fa-check-circle"/> Seu NFT é o ticket que lhe dará acesso a descontos em diversos estabelecimentos ou prestadores de serviços ao redor do mundo!</li>
+                           <li><i class="fas fa-check-circle"/> Seu NFT é o ticket que lhe dará acesso a <b>exclusividades, vantagens e descontos</b> em diversos estabelecimentos ou prestadores de serviços ao redor do <b>mundo!</b></li>
                         
                         </ol>
                      </div>
@@ -342,12 +342,20 @@ function Home() {
                            <li>Continuar formando parcerias, aumentando assim os benefícios, exclusividades e valor do NFT no decorrer do tempo. Lista completa de benefícos você encontra <a href="https://discord.gg/Tr7bHA8jQj" class=" text-green-700"> Discord </a><a class="" href="https://discord.gg/Tr7bHA8jQj"><img src="svg/discord.svg" alt="Discord" style={{height:"16px", display:"inline", width:"16px", margin:"0px 0px 3px 0px"}}/></a></li>
                         </ol>
                      </div> */}
+
+                     <div class="mt-8 w-full md:w-[600px]" >
+                        <h1 class="mt-14 text-xl text-green-700 md:text-xl lg:text-3xl leading-solid ">Time Intergalático</h1>
+                        <h2 class="mb-1 text-3xl md:text-3xl leading-solid text-sea-700">Membros</h2>
+                        <div  class="w-full md:w-[600px] ">
+                           <img class="mt-0" src="images/team3.webp" alt="NFT Com Utilidade Real" />
+                        </div>
+                     </div>
                      
                   </div>
 
 
-                  <h1 style={{marginTop:"85px"}} class=" text-sea-700">O Time</h1>
-                  <CardSlider />
+                  {/* <h1 style={{marginTop:"85px"}} class=" text-sea-700">O Time</h1>
+                  <CardSlider /> */}
 
                   <div class="px-1 flex flex-col items-center justify-center flex-1 bullet">
 
@@ -393,12 +401,20 @@ function Home() {
                      </div>
 
                      <div class="mt-8 w-full md:w-[600px]" >
+                        <h1 class="mt-14 text-xl text-green-700 md:text-xl lg:text-3xl leading-solid ">Os Guardiões</h1>
+                        <h2 class="mb-1 text-3xl md:text-3xl leading-solid text-sea-700">Super-Heróis Mutantes</h2>
+                        <div  class="w-full md:w-[600px] ">
+                           <img class="mt-0" src="images/samples.webp" alt="NFT Com Utilidade Real" />
+                        </div>
+                     </div>
+
+                     <div class="mt-8 w-full md:w-[600px]" >
                         <h1 class="mt-14 text-xl text-green-700 md:text-xl lg:text-3xl leading-solid ">Por que investir?</h1>
                         <h2 class="mb-1 text-3xl md:text-3xl leading-solid text-sea-700">Consumidor</h2>
                         <ol class="bullet-list" >
-                           <li><i class="fas fa-check-circle"/> <b>Descontos Vitalícios:</b> Enquanto as parcerias existirem, os donos dos NFT's podem usufruir dos benefícos, descontos e vantagens. </li>
+                           <li><i class="fas fa-check-circle"/> <b>Exclusividades Vitalícias:</b> Enquanto as parcerias existirem, os donos dos NFT's podem usufruir dos benefícos, descontos e vantagens. </li>
                            <li>&nbsp;</li>
-                           <li><i class="fas fa-check-circle"/> <b>Alta Resolução:</b> Arte ilustrada por um profissional brasileiro, em alta resolução (2500 x 2500 x 300dpi), valorizando a fauna e as regiões brasileiras. Podem ser usados em perfis sociais.</li>
+                           <li><i class="fas fa-check-circle"/> <b>Alta Resolução:</b> Arte ilustrada por um profissional brasileiro, em alta resolução (2500 x 2500 x 300dpi), rica em detalhes, valorizando a fauna e as regiões brasileiras. Idealizados para serem usados em perfis sociais. <b>Você consegue identificar o super-herói mutante em cada NFT?</b></li>
                         </ol>
                      </div>
 
