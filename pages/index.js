@@ -488,9 +488,29 @@ function Home() {
                      
                      <div class="mt-8 w-full md:w-[600px]" >
                         <h1 class="mt-14 text-xl text-green-700 md:text-xl lg:text-3xl leading-solid ">Parcerias Fechadas</h1>
-                        <h2 class="mb-1 text-3xl md:text-3xl leading-solid text-sea-700">Descontos Oferecidos</h2>
+                        <h2 class="mt-8 mb-1 text-xl md:text-xl leading-solid text-sea-700">Coma Bem - Com Descontos</h2>
                         <div  class="w-full md:w-[600px] ">
-                           <img class="mt-0" src="images/colage.webp" alt="NFT Com Utilidade Real" />
+                           <img class="mt-0" src="images/parc_bangon.webp" alt="Tapiocaria e Açai Zurique" />
+                        </div>
+                        <div  class="w-full md:w-[600px] ">
+                           <h2 class="mt-8 mb-1 text-xl md:text-xl leading-solid text-sea-700">Alugue / Temporada - 5% On Top</h2>
+                           <img class="mt-0" src="images/parc_apartbrasilrecife.webp" alt="Alugue apartamentos por temporada" />
+                        </div>
+                        <div  class="w-full md:w-[600px] ">
+                        <h2 class="mt-8 mb-1 text-xl md:text-xl leading-solid text-sea-700">Organize Festas - 10% OFF</h2>
+                           <img class="mt-0" src="images/parc_barzinhoshow.webp" alt="Organize festas" />
+                        </div>
+                        <div  class="w-full md:w-[600px] ">
+                        <h2 class="mt-8 mb-1 text-xl md:text-xl leading-solid text-sea-700">Área Jurídica : 10-30% OFF</h2>
+                           <img class="mt-0" src="images/parc_jessica.webp" alt="Consultoria Jurídica" />
+                        </div>
+                        <div  class="w-full md:w-[600px] ">
+                        <h2 class="mt-8 mb-1 text-xl md:text-xl leading-solid text-sea-700">Consultas Jurídicas - 5% OFF</h2>
+                           <img class="mt-0" src="images/parc_conrado.webp" alt="Consultoria Jurídica" />
+                        </div>
+                        <div  class="w-full md:w-[600px] ">
+                        <h2 class="mt-8 mb-1 text-xl md:text-xl leading-solid text-sea-700">Ilustração Digital - 15% OFF</h2>
+                           <img class="mt-0" src="images/parc_robson.webp" alt="Ilustração digital" />
                         </div>
                      </div>
 
