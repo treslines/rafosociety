@@ -294,7 +294,7 @@ function Home() {
                            <li>&nbsp;</li>
                            <li><i class="fas fa-check-circle"/> Rainforest Society é uma coleção de 8.888 NFTs, representado por animais da fauna brasileira como uma peça de arte digital. Com mais de <b>10 bilhões de traços</b>, nossa coleção será uma das mais diversificadas e detalhadas.</li>
                            <li>&nbsp;</li>
-                           <li><i class="fas fa-check-circle"/> Nosso objetivo é construir um <b>NFT fidelidade</b>, unindo estabelecimentos, lojas, shoppings, restaurantes, prestadores de serviços e clubs, ao consumidor final através de descontos, acessos ou benefícios exclusivos.</li>
+                           <li><i class="fas fa-check-circle"/> Nosso objetivo é construir um NFT fidelidade <b>- Um Ticket de Vantagens</b>, unindo estabelecimentos, lojas, shoppings, restaurantes, prestadores de serviços e clubs, ao consumidor final através de descontos, acessos ou benefícios exclusivos.</li>
                            <li>&nbsp;</li>
                            <li><i class="fas fa-check-circle"/> Seu NFT é o ticket que lhe dará acesso a <b>exclusividades, vantagens e descontos</b> em diversos estabelecimentos ou prestadores de serviços ao redor do <b>mundo!</b></li>
                         
@@ -318,6 +318,14 @@ function Home() {
                            </svg>
                            <span>Discord</span>
                         </a>
+                     </div>
+
+                     <div class="mt-8 w-full md:w-[600px]" >
+                        <h1 class="mt-14 text-xl text-green-700 md:text-xl lg:text-3xl leading-solid ">Os Guardiões</h1>
+                        <h2 class="mb-1 text-3xl md:text-3xl leading-solid text-sea-700">Super-Heróis Mutantes</h2>
+                        <div  class="w-full md:w-[600px] ">
+                           <img class="mt-0" src="images/samples1.webp" alt="NFT Com Utilidade Real" />
+                        </div>
                      </div>
 
                      <div class="mt-8 w-full md:w-[600px]" >
@@ -401,8 +409,8 @@ function Home() {
                      </div>
 
                      <div class="mt-8 w-full md:w-[600px]" >
-                        <h1 class="mt-14 text-xl text-green-700 md:text-xl lg:text-3xl leading-solid ">Os Guardiões</h1>
-                        <h2 class="mb-1 text-3xl md:text-3xl leading-solid text-sea-700">Super-Heróis Mutantes</h2>
+                        <h1 class="mt-14 text-xl text-green-700 md:text-xl lg:text-3xl leading-solid ">Identifique seu Super-Herói</h1>
+                        <h2 class="mb-1 text-3xl md:text-3xl leading-solid text-sea-700">Torne-se um Guardião</h2>
                         <div  class="w-full md:w-[600px] ">
                            <img class="mt-0" src="images/samples.webp" alt="NFT Com Utilidade Real" />
                         </div>
@@ -448,6 +456,14 @@ function Home() {
 
                      {/* <h1 class="text-sea-700">Roadmap Idealizado</h1>
                         <Timeline timelineData={plan} /> */}
+
+                  <div class="mt-8 w-full md:w-[600px]" >
+                     <h1 class="mt-14 text-xl text-green-700 md:text-xl lg:text-3xl leading-solid ">Qual será o seu?</h1>
+                     <h2 class="mb-1 text-3xl md:text-3xl leading-solid text-sea-700">Traços Incríveis</h2>
+                     <div  class="w-full md:w-[600px] ">
+                        <img class="mt-0" src="images/samples2.webp" alt="NFT Com Utilidade Real" />
+                     </div>
+                  </div>
 
                   <div class=" flex flex-col items-center justify-center flex-1 bullet">   
                      <div class="mt-0 w-full md:w-[600px]" >
